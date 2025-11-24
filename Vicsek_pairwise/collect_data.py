@@ -16,7 +16,9 @@ if __name__ == "__main__":
 
 
     # enter the path where the data is
+    os.chdir("..")
     os.chdir("Data")
+    os.chdir("Pairwise_interaction")
 
     
 

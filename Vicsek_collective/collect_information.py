@@ -12,7 +12,9 @@ if __name__ == "__main__":
     os.chdir(path_of_this_file)
     
     # enter the folder where the data is stored
-    os.chdir("Data_40")
+    os.chdir("..")
+    os.chdir("Data")
+    os.chdir("Collective_motion")
 
     number_of_bins = 8
 

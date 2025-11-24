@@ -20,8 +20,10 @@ def process_files():
 
     # The pairwise interaction program
     filename = 'Vicsek_pairwise.py'
-    # Enter the folder where the data is located
-    os.chdir("data")
+    # Enter the folder where you want to save data
+    os.chdir("..")
+    os.chdir("Data")
+    os.chdir("Pairwise_interaction")
 
 
 

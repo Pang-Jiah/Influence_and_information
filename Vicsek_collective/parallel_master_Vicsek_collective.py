@@ -18,9 +18,12 @@ def process_files():
     # The collective program
     filename = 'vicsek_collective.py'
     
-    # Enter the folder where the data is located
-    os.chdir("Data_40")
-
+    # Enter the folder where the data is to be saved
+    os.chdir("..")
+    os.chdir("Data")
+    os.chdir("Collective_motion")
+    
+     # =========== collective motion ===========
     number_of_particles = [40]  # argv[1] The number of particles 
     number_of_influencers = [0] # argv[2] The number of influencer 
     

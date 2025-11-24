@@ -20,7 +20,9 @@ def process_files():
     script_file = os.path.join(path_here, filename)
     
     # enter the data path
+    os.chdir("..")
     os.chdir("Data")
+    os.chdir("Pairwise_interaction")
 
 
     path = os.path.abspath('.')

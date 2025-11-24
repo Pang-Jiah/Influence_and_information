@@ -1,9 +1,10 @@
 import h5py
 import numpy as np
 import os
-
 import time
 import sys 
+
+
 
 sys.path.insert(0, sys.path[0]+"\\..\\")
 from Vicsek import *
